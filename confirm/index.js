@@ -9,7 +9,6 @@ let two = (value) => {
 	 return sum.toFixed(2);
 }
 
-
 const getTotalPriceOfShoppingBag = (shoppingBagArray) => {
 	// cчитаем общую стоимость
 	let total = shoppingBagArray.reduce((item, value) => {
@@ -30,12 +29,11 @@ const groceries = {
     price: 2,
     discount: 0
   }
-  // more items...
 };
 
 const shoppingBag = [
-  { productId: "73Wakv", count: 0 },
-  { productId: "5L3db9", count: 48 }
+  { productId: "73Wakv", count: 55 },
+  { productId: "5L3db9", count: 0 }
 ];
 
 const totalPrice = getTotalPriceOfShoppingBag(shoppingBag);
