@@ -6,7 +6,7 @@ let two = (value) => {
 	 } else {
 		sum = groceries[value].price;
 	 }
-	 return sum.toFixed(2);
+	 return sum;
 }
 
 const getTotalPriceOfShoppingBag = (shoppingBagArray) => {
